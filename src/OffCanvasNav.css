@@ -1,0 +1,73 @@
+.offcanvas {
+    background-color: #6b8778c7 !important;
+    height: 100%;
+    position: absolute;
+    right:0;
+    top: 0;
+    width:20em !important;
+    padding: 1em 1em;
+    color: #f0f2f2;
+    border: 2px  rgba(255, 255, 255, 0.438) outset;
+}
+
+a {
+    text-decoration: none !important;
+    color: #f0f2f2 !important;
+}
+
+a:hover {
+    cursor: pointer !important;
+}
+.menu {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: #f0f2f2; 
+    height: min-content;
+    width: min-content;
+    
+}
+
+.MenuIcon {
+    font-size: 2.3rem !important;
+}
+
+.Nav_Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+    font-size: 2em;
+}
+.btn-close {
+    background-color: rgba(241, 241, 241, 0);
+    position: absolute;
+    right: .8em;
+    top:1em;
+    border: none;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 2em;
+}
+
+.btn-close:hover {
+    animation: zoom 1.5s ease-in-out infinite normal none;
+    color: white;
+}
+
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+       
+    }
+    50% {
+        transform: scale(.9);
+        
+    }
+    100% {
+        transform: scale(1);
+        
+    }
+}
+
+ 
